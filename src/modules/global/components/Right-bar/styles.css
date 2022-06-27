@@ -1,0 +1,14 @@
+.rightBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 240px;
+    height: 100vh;
+    border-left: 1px solid black;
+}
+.txtWrapper {
+    margin-left: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}

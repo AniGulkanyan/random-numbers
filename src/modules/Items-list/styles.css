@@ -1,0 +1,40 @@
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    overflow-y: scroll;
+}
+.btnContainer {
+    position: fixed;
+    margin-left: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+.addCards {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #bdd4e7;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.addCards:hover {
+    cursor: pointer;
+}
+
+.sortCards {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #bdd4e7;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sortCards:hover {
+    cursor: pointer;
+}
+.footerTxt {
+    margin-left: 20px;
+}
