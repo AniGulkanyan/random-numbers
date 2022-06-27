@@ -3,13 +3,11 @@
     flex-direction: column;
     height: 100%;
 }
-
 .container__content {
     max-height: 100vh;
     height: calc(92vh - 100px);
     overflow-y: scroll;
 }
-
 .App {
     display: flex;
     flex-direction: row;

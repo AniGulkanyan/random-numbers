@@ -22,7 +22,6 @@
 .addCards:hover {
     cursor: pointer;
 }
-
 .sortCards {
     border: 1px solid lightgray;
     border-radius: 5px;
