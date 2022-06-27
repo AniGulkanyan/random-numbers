@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {MouseEvent, ReactNode} from 'react';
 import './styles.css';
 
 interface IItem {
-    onClick?: any;
-    children?: any;
+    onClick?: (e: MouseEvent) => void;
+    children?: ReactNode;
 }
 
 function Item({onClick, children}: IItem) {

@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {MouseEvent, ReactNode} from 'react';
 import Item from '../Item';
 import './styles.css';
 
 export interface IList {
-    onClick?: any;
-    children?: any;
+    onClick?: (e: MouseEvent) => void;
+    children?: ReactNode;
 }
 
 function List({onClick, children}: IList) {
